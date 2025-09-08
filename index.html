@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>魏苏淮 Su‑Huai Wei — 学术主页</title>
+  <meta name="description" content="魏苏淮（Su‑Huai Wei）：凝聚态物理与计算材料科学家，东方理工（宁波）物理学院院长、讲席教授；前NREL理论组负责人、CSRC讲席教授。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --bg:#0b0f14; --card:#111823; --muted:#a3b1c6; --text:#e6eefc; --accent:#6ec8ff; --accent2:#9ef7b7;
+      --max:980px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.65}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{position:sticky;top:0;background:linear-gradient(180deg, rgba(11,15,20,.95), rgba(11,15,20,.75));backdrop-filter:saturate(180%) blur(8px);z-index:10;border-bottom:1px solid #1b2635}
+    nav{max-width:var(--max);margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px}
+    .brand{font-weight:800;letter-spacing:.2px}
+    .brand small{font-weight:600;color:var(--muted)}
+    .nav a{margin-left:16px;color:var(--muted)}
+    .hero{max-width:var(--max);margin:40px auto 24px;padding:0 20px;display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:16px;background:#0f1520 url('https://news.sciencenet.cn/upload/news/images/2024/6/2024614114245422.jpg') center/cover no-repeat;border:1px solid #1b2635}
+    .title h1{margin:0 0 8px;font-size:30px;letter-spacing:.2px}
+    .title p{margin:0;color:var(--muted)}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#0d1a27;border:1px solid #1b2a3e;color:var(--accent)}
+    .grid{max-width:var(--max);margin:12px auto;padding:0 20px;display:grid;grid-template-columns:1fr;gap:16px}
+    section{background:var(--card);border:1px solid #1b2635;border-radius:16px;padding:18px}
+    section h2{margin:0 0 12px;font-size:20px}
+    ul{margin:6px 0 0 20px;padding:0}
+    li{margin:6px 0}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:860px){.hero{grid-template-columns:1fr}.avatar{width:96px;height:96px}.two{grid-template-columns:1fr}}
+    .list-compact li{margin:8px 0}
+    .meta{color:var(--muted);font-size:14px}
+    footer{max-width:var(--max);margin:24px auto 56px;padding:0 20px;color:var(--muted)}
+    .btns a{display:inline-block;margin-right:10px;margin-top:8px;padding:8px 12px;border:1px solid #24425e;border-radius:10px;color:#d8ecff;background:#0c1824}
+    .kicker{font-size:12px;color:var(--muted);margin-top:10px}
+    .badge{font-size:12px;color:#b8ffdf;background:#0d2a1e;border:1px solid #1c503a;border-radius:999px;padding:2px 8px;margin-left:8px}
+    .honors li{margin:10px 0}
+    .pubs li{margin:10px 0}
+    .pubs em{font-style:normal;color:#c7d6ea}
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="brand">Su‑Huai Wei <small>魏苏淮</small></div>
+    <div class="nav">
+      <a href="#about">简介</a>
+      <a href="#interests">研究方向</a>
+      <a href="#appointments">任职</a>
+      <a href="#pubs">代表论文</a>
+      <a href="#honors">荣誉</a>
+      <a href="#links">链接</a>
+      <a href="#contact">联系</a>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="avatar" aria-label="魏苏淮肖像"></div>
+  <div class="title">
+    <h1>魏苏淮 <span class="meta">Su‑Huai Wei</span></h1>
+    <p>凝聚态物理 / 计算材料科学（第一性原理）</p>
+    <p class="meta">现任：宁波东方理工大学·理学部物理学院 院长、讲席教授</p>
+    <div class="btns">
+      <a href="#pubs">查看代表论文</a>
+      <a href="#links">学术链接</a>
+      <a class="pill" title="Google Scholar 引用情况" href="https://scholar.google.co.th/citations?user=WLN0rVoAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+  <section id="about">
+    <h2>个人简介</h2>
+    <p>魏苏淮（Su‑Huai Wei）长期从事凝聚态物理与计算材料科学研究，聚焦半导体与能源/光电材料的第一性原理理论与计算，包括能带结构、缺陷与掺杂、无序合金与超晶格、界面与异质结等；在相关方法学（如FLAPW、特殊准随机结构 SQS、缺陷计算与掺杂极限定则）与材料设计方面做出系统性贡献。</p>
+    <p class="meta">教育背景：复旦大学 物理学学士（1981）；美国威廉玛丽学院 物理学博士（1985，CUSPEA）。</p>
+  </section>
+
+  <section id="interests">
+    <h2>研究方向</h2>
+    <div class="two">
+      <ul class="list-compact">
+        <li>第一性原理电子结构理论与方法</li>
+        <li>半导体能带、缺陷与杂质能级</li>
+        <li>无序合金、超晶格与异质结界面</li>
+      </ul>
+      <ul class="list-compact">
+        <li>光伏与发光材料的光电性质</li>
+        <li>储能材料：氢储存、电池与热储能</li>
+        <li>低维/纳米与有机‑无机杂化半导体</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="appointments">
+    <h2>主要任职</h2>
+    <ul>
+      <li><strong>宁波东方理工大学</strong>（Eastern Institute of Technology, Ningbo）理学部物理学院 <em>院长、讲席教授</em>（2024—至今）</li>
+      <li><strong>北京计算科学研究中心（CSRC）</strong>讲席教授、材料与能源研究部主任（2015—2024）</li>
+      <li><strong>美国国家可再生能源实验室（NREL）</strong>理论材料科学组 经理，实验室Fellow（1985—2015）</li>
+    </ul>
+    <p class="meta">兼/曾任：国家重点研发计划首席科学家、国家基金委重大项目负责人；多次国际会议大会主席等。</p>
+  </section>
+
+  <section id="honors">
+    <h2>荣誉与奖励</h2>
+    <ul class="honors">
+      <li>美国物理学会会士（APS Fellow，1998）<span class="badge">Fellow</span></li>
+      <li>材料研究学会会士（MRS Fellow，2014）<span class="badge">Fellow</span></li>
+    </ul>
+  </section>
+
+  <section id="pubs">
+    <h2>代表论文（部分）</h2>
+    <ol class="pubs">
+      <li>
+        S.‑H. Wei, A. Zunger, <em>Calculated natural band offsets of all II–VI and III–V semiconductors: Chemical trends and the role of cation d orbitals</em>, <span class="meta">Applied Physics Letters 72, 2011 (1998)</span>. 
+        <a href="https://pubs.aip.org/aip/apl/article/72/16/2011/68146/Calculated-natural-band-offsets-of-all-II-VI-and" target="_blank" rel="noopener">Publisher</a> · <a href="https://doi.org/10.1063/1.121249" target="_blank" rel="noopener">DOI</a>
+      </li>
+      <li>
+        S. Chen, X.‑G. Gong, A. Walsh, S.‑H. Wei, <em>Crystal and electronic band structure of Cu<sub>2</sub>ZnSnX<sub>4</sub> (X = S, Se) photovoltaic absorbers: First‑principles insights</em>, <span class="meta">Applied Physics Letters 94, 041903 (2009)</span>. 
+        <a href="https://pubs.aip.org/aip/apl/article/94/4/041903/337567/Crystal-and-electronic-band-structure-of-Cu2ZnSnX4" target="_blank" rel="noopener">Publisher</a> · <a href="https://doi.org/10.1063/1.3074499" target="_blank" rel="noopener">DOI</a>
+      </li>
+      <li>
+        S.‑B. Zhang, S.‑H. Wei, <em>Nitrogen Solubility and Induced Defect Complexes in Epitaxial GaAs:N</em>, <span class="meta">Physical Review Letters 86, 1789 (2001)</span>. 
+        <a href="https://link.aps.org/doi/10.1103/PhysRevLett.86.1789" target="_blank" rel="noopener">Publisher</a> · <a href="https://doi.org/10.1103/PhysRevLett.86.1789" target="_blank" rel="noopener">DOI</a>
+      </li>
+      <li>
+        S.‑H. Wei, <em>Origin of the Doping Bottleneck in Semiconductor Quantum Dots: A First‑Principles Study</em>, <span class="meta">Physical Review B 77, 113304 (2008)</span>. 
+        <a href="https://doi.org/10.1103/PhysRevB.77.113304" target="_blank" rel="noopener">DOI</a>
+      </li>
+      <li>
+        S.‑H. Wei, J. Yang, J.‑S. Park, <em>First‑Principles Multiple‑Barrier Diffusion Theory: Interstitial Diffusion in CdTe</em>, <span class="meta">Physical Review B 91, 075202 (2015)</span>. 
+        <a href="https://doi.org/10.1103/PhysRevB.91.075202" target="_blank" rel="noopener">DOI</a>
+      </li>
+    </ol>
+    <p class="meta">更多论文请见 Google Scholar / ORCID。</p>
+  </section>
+
+  <section id="links">
+    <h2>学术链接</h2>
+    <ul>
+      <li>Google Scholar：<a target="_blank" rel="noopener" href="https://scholar.google.co.th/citations?user=WLN0rVoAAAAJ">WLN0rVoAAAAJ</a></li>
+      <li>ORCID：<a target="_blank" rel="noopener" href="https://orcid.org/0000-0003-1563-4738">0000‑0003‑1563‑4738</a></li>
+      <li>ResearchGate：<a target="_blank" rel="noopener" href="https://www.researchgate.net/profile/Su-Huai-Wei">profile/Su‑Huai‑Wei</a></li>
+      <li>东方理工（宁波）官网：<a target="_blank" rel="noopener" href="https://www.eitech.edu.cn/">eitech.edu.cn</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>联系</h2>
+    <p>合作与访问事宜可通过所在单位官方渠道联系。</p>
+    <ul>
+      <li>单位：宁波东方理工大学·理学部物理学院（Ningbo, China）</li>
+      <li>建议联系：学校官网“联系我们”或学院办公室</li>
+    </ul>
+  </section>
+</div>
+
+<footer>
+  <div>© <span id="y"></span> Su‑Huai Wei. 本页仅作学术交流之用。<span class="kicker">Last updated: 2025‑09‑08</span></div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
